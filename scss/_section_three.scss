@@ -1,0 +1,22 @@
+.section-three {
+    margin-top: 95px;
+    gap: 169px;
+    height: 410px;
+    p {
+        margin-top: 20px;
+    }
+    .block-text {
+        justify-content: flex-end;
+        min-height: 410px;
+    }
+}
+.list {
+    margin-top: 5px;
+    li {
+        font-weight: 400;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+}

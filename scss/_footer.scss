@@ -1,0 +1,74 @@
+.footer {
+    padding: 270px 0 100px;
+    background: #F8F8F8;
+    margin-top: -80px;
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        margin-bottom: 30px;
+    }
+
+    .icon-Logo {
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .strong {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+
+.footer-social {
+    width: 340px;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .icon {
+        width: 24px;
+        height: 24px;
+        fill: #f53838;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        border-radius: 50%;
+        transition: all 0.3s;
+        cursor: pointer;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+}
+
+.footer-product {
+    display: flex;
+    gap: 120px;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+}
