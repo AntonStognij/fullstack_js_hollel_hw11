@@ -1,0 +1,15 @@
+.section-seven {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 86.5px 70px;
+    position: relative;
+    top: 80px;
+    z-index: 5;
+    background-color: #fff;
+    .block-text {
+        width: 370px;
+        gap: 20px;
+        justify-content: center;
+        background-color: #fff;
+        min-height: 0;
+    }
+}

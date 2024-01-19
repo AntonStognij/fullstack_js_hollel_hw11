@@ -1,0 +1,23 @@
+.section-five {
+    @include text-center();
+    p {
+        .strong {
+            font-weight: 500;
+        }
+    }
+    img {
+        margin-bottom: 80px;
+    }
+    .section-block-text {
+        margin-bottom: 156px;
+    }
+}
+
+.block-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        margin-bottom: 0;
+    }
+}
